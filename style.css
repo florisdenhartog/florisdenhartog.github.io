@@ -1,0 +1,116 @@
+/* Basislayout */
+
+@font-face {
+    font-family: KaushanScript;
+    src: url("./fonts/KaushanScript-Regular.otf");
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: rgb(220, 239, 241);
+    
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+html {
+    font-family: 'Annie Use Your Telescope'
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: rgb(44, 0, 240);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* navigatiebalk */
+.middel {
+    float: mid;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:rgb(113, 181, 245);
+}
+
+nav li a.active {
+    background-color: rgb(31, 118, 248);
+}
+
+/* plaatjes stijlen */
+img.plaatjeboek {
+    float: right;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+/* tekst stijlen */
+hr {
+    color: rgb(0, 0, 0);
+}
+
+.kopje {
+    color: rgb(20, 0, 200);
+}
+
+.kopje U
