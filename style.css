@@ -97,19 +97,39 @@ nav li a.active {
 }
 
 /* plaatjes stijlen */
+img{
+    border-radius:10px;
+}
 img.plaatjeboek {
     float: right;
     margin-right:10px;
     margin-left:10px;
     margin-bottom:10px;
+    margin-top:50px;
 }
 
+img.plaatje {
+    float: right;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
 .theo {
     float: right;
     margin-top:10px;
     margin-bottom:20px;
+    margin-left:10px;
 }
 /* tekst stijlen */
+h1 {
+  text-shadow: 2px 2px 5px blue;
+}
+
+h2 {
+  color: rgb(20, 0, 200);
+  text-shadow: 2px 2px 4px #0c85bd;
+}
+
 hr {
     color: rgb(0, 0, 0);
 }
