@@ -97,7 +97,7 @@ nav li a.active {
 }
 
 /* plaatjes stijlen */
-img{
+img {
     border-radius:10px;
 }
 img.plaatjeboek {
@@ -114,12 +114,14 @@ img.plaatje {
     margin-left:10px;
     margin-bottom:10px;
 }
+
 .theo {
     float: right;
     margin-top:10px;
     margin-bottom:20px;
     margin-left:10px;
 }
+
 /* tekst stijlen */
 h1 {
   text-shadow: 2px 2px 5px blue;
@@ -140,4 +142,16 @@ hr {
 
 .kopje1 {
     color: rgb(241, 168, 11);
+}
+
+.kopje2 {
+    color: rgb(241, 11, 11);
+}
+
+.kopje3 {
+    color: rgb(0, 255, 42);
+}
+
+.kopje4 {
+    color: rgb(187, 11, 241);
 }
