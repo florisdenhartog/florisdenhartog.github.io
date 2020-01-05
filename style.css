@@ -8,8 +8,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(220, 239, 241);
-    
+    background-color: rgb(158, 203, 255);
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -113,6 +112,7 @@ img.plaatje {
     margin-right:10px;
     margin-left:10px;
     margin-bottom:10px;
+    margin-top:10px;
 }
 
 .theo {
@@ -122,6 +122,11 @@ img.plaatje {
     margin-left:10px;
 }
 
+.plaatje-onderkant {
+    float: right;
+    margin-bottom:30px;
+    margin-left:15px;
+}
 /* tekst stijlen */
 h1 {
   text-shadow: 2px 2px 5px blue;
@@ -136,22 +141,27 @@ hr {
     color: rgb(0, 0, 0);
 }
 
+/* kopjes stijlen */
 .kopje {
     color: rgb(20, 0, 200);
 }
 
 .kopje1 {
-    color: rgb(241, 168, 11);
+    color: rgb(0, 130, 20);
 }
 
 .kopje2 {
-    color: rgb(241, 11, 11);
+    color: rgb(250, 10, 10);
 }
 
 .kopje3 {
-    color: rgb(0, 131, 22);
+    color: rgb(0, 130, 20);
 }
 
 .kopje4 {
-    color: rgb(187, 11, 241);
+    color: rgb(20, 0, 200);
+}
+
+.kopje5 {
+    color: rgb(200, 0, 0);
 }
